@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    background: rgb(39, 136, 110);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    background: rgb(156, 228, 209);
+    color: black;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.note {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+.colour{
+    display: flex;
+    justify-content: space-between; /* Ensures both divs align to the left and right */
+    align-items: center; /* Aligns items vertically */
+    width: 100%;
+}
+
+.background_col,.input_col{
+    width: 45%;
+}
+
+
+
+
+
+
+
+
